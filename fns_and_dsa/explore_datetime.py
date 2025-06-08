@@ -10,8 +10,9 @@ def calculate_future_date():
     while True:
         current_date = display_current_datetime()
         
+        print("(Enter 0 to exit)")
         try:
-            add_days = int(input("Enter the number of days to add to the current date (0 to exit): "))
+            add_days = int(input("Enter the number of days to add to the current date: "))
             if add_days == 0:
                 print("Exiting program.")
                 break
